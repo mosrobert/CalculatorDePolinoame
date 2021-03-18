@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="208.0" y="180.0">tuc.tp.tema1.DataModels.Operatii</node>
+    <node x="0.0" y="180.0">tuc.tp.tema1.GUI.View</node>
+    <node x="100.0" y="180.0">tuc.tp.tema1.GUI.Model</node>
+    <node x="151.24" y="90.0">tuc.tp.tema1.DataModels.Polinom</node>
+    <node x="155.2" y="0.0">tuc.tp.tema1.DataModels.Monom</node>
+    <node x="-101.76000000000002" y="100.0">tuc.tp.tema1.GUI.Control</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tuc.tp.tema1.DataModels.Polinom" target="tuc.tp.tema1.DataModels.Monom">
+      <point x="-26.0" y="-15.0" />
+      <point x="177.24" y="70.0" />
+      <point x="191.86666666666667" y="70.0" />
+      <point x="-7.333333333333343" y="15.0" />
+    </edge>
+    <edge source="tuc.tp.tema1.GUI.Control" target="tuc.tp.tema1.GUI.View">
+      <point x="-39.0" y="-15.0" />
+      <point x="51.23999999999998" y="235.0" />
+      <point x="20.0" y="235.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="tuc.tp.tema1.DataModels.Operatii" target="tuc.tp.tema1.DataModels.Monom">
+      <point x="44.80000000000001" y="-15.0" />
+      <point x="308.8" y="150.0" />
+      <point x="283.995" y="150.0" />
+      <point x="283.995" y="50.0" />
+      <point x="235.86666666666662" y="50.0" />
+      <point x="36.66666666666663" y="15.0" />
+    </edge>
+    <edge source="tuc.tp.tema1.GUI.Model" target="tuc.tp.tema1.DataModels.Polinom">
+      <point x="0.0" y="-15.0" />
+      <point x="144.0" y="140.0" />
+      <point x="159.90666666666667" y="140.0" />
+      <point x="-43.33333333333333" y="15.0" />
+    </edge>
+    <edge source="tuc.tp.tema1.GUI.Control" target="tuc.tp.tema1.GUI.Model">
+      <point x="13.0" y="-15.0" />
+      <point x="103.23999999999998" y="235.0" />
+      <point x="122.0" y="235.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="tuc.tp.tema1.GUI.Model" target="tuc.tp.tema1.DataModels.Monom">
+      <point x="-17.6" y="-15.0" />
+      <point x="126.4" y="160.0" />
+      <point x="132.695" y="160.0" />
+      <point x="132.695" y="60.0" />
+      <point x="177.2" y="60.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="tuc.tp.tema1.DataModels.Operatii" target="tuc.tp.tema1.DataModels.Polinom">
+      <point x="-44.80000000000001" y="-15.0" />
+      <point x="219.2" y="160.0" />
+      <point x="211.90666666666667" y="160.0" />
+      <point x="8.666666666666671" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="309.0" y="96.5" />
+  <SelectedNodes>
+    <node>tuc.tp.tema1.GUI.Control</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
